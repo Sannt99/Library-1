@@ -1,0 +1,11 @@
+import suasaude #library 
+
+indice = suasaude.calculoIMC (float(input("Digite seu peso:")),float(input("Digite sua altura:")))
+
+print("seu grau de obesidade é:",indice)
+
+Atividade = suasaude.iniciaresporte(input("digite o esporte que quer começar:"))
+print(Atividade)
+
+tempo = suasaude.tempo(input("Quanto tempo você tem para se dedicar:"))
+print(tempo)
